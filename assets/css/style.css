@@ -257,14 +257,12 @@ h1{
     transform: translate(10rem,9rem) rotate(40deg);
     z-index: -2;
 }
-/*
-.leaf {
-    position: absolute;
-    width: 10px;
-    height: 30px;
-    background-color: rgb(58, 201, 58);
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    transform: translate(6px, -5px) rotate(-30deg);
+
+
+@media  (max-width:700px) {
+    body {
+        position:absolute;
+		left:50%;
+		top:50%;
+    }
 }
-*/

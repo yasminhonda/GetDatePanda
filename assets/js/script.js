@@ -13,7 +13,7 @@ function getData (data) {
 }
 
 function getDiaSemana (diaSemana) {
-    const semanaTexto = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado',];
+    const semanaTexto = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'];
     return semanaTexto[diaSemana];
 }
 
